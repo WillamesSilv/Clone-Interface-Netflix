@@ -1,0 +1,15 @@
+.featured {
+    height: 100vh;
+}
+
+.featured--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, rgba(20, 20, 20, 100%) 10%, transparent 90%);
+}
+
+.featured--horizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, rgba(20, 20, 20, 93%) 30%, transparent 70%);
+}
