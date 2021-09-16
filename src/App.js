@@ -69,6 +69,13 @@ export default () => {
         Direitos de imagem para Netflix<br/>
         Dados retirados do Themoviedb.org
       </footer>
+
+      {movieList.length <= 0 && 
+        <div className="loading">
+          <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif" alt="carregando"/>
+        </div>
+      }    
+      
     </div>
   )
 }
